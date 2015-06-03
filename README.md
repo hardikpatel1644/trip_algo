@@ -56,11 +56,11 @@ You can change starting and ending points.<br/>
 ===========================================================
 <p>
 Based on starting and ending points result will be display as following list <br/>
-<ol>
-    <li>Take train 78A from Madrid to Barcelona. Sit in seat 45B.</li>
-   <li> Take the airport bus from Barcelona to Gerona Airport. No seat assignment.</li>
-   <li> From Gerona Airport, take flight SK455 to Stockholm. Gate 3A, seat 45B. Baggage drop at ticket counter 344.</li>
-   <li> From Stockholm, take flight SK22 to New York JFK. Gate 7B, seat 22. Baggage will we automatically transferred from your last leg.</li>
-   <li> You have arrived at your final destination.</li>
-   </ol>
+
+    1.Take train 78A from Madrid to Barcelona. Sit in seat 45B.<br/>
+    2.Take the airport bus from Barcelona to Gerona Airport. No seat assignment.<br/>
+    3.From Gerona Airport, take flight SK455 to Stockholm. Gate 3A, seat 45B. Baggage drop at ticket counter 344.<br/>
+    4.From Stockholm, take flight SK22 to New York JFK. Gate 7B, seat 22. Baggage will we automatically transferred from your last leg.<br/>
+    5.You have arrived at your final destination.<br/>
+   
 </p>
