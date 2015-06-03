@@ -19,19 +19,20 @@ Input parameters and sequence
 ======================================================
 - Set routes in array format 
 Elements sequence 
-0 = Vehicle information ( Like Train , flight)
-1 = Starting point ( Like Madrid )
-2 = Ending point ( Like Barcelona )
-3 = Seat No ( Like 45B )
-4 = Vehicle No ( Like SK22)
-5 = Gate No ( Like 22)
-6 = Baggage details ( Like Transfer )
+  0 = Vehicle information ( Like Train , flight)
+  1 = Starting point ( Like Madrid )
+  2 = Ending point ( Like Barcelona )
+  3 = Seat No ( Like 45B )
+  4 = Vehicle No ( Like SK22)
+  5 = Gate No ( Like 22)
+  6 = Baggage details ( Like Transfer )
 
 E.g
-$obTrip->setCard(array("Flight", "Stockholm", "New York JFK", "7B", "SK22", "22", "transfer"));
-$obTrip->setCard(array("Airport Bus", "Barcelona", "Gerona Airport", "", "", "", ""));
-$obTrip->setCard(array("Flight", "Gerona Airport", "Stockholm", "3A", "SK455", "45B", "344"));
-$obTrip->setCard(array("Train", "Madrid", "Barcelona", "45B", "78A", "", ""));
+
+  $obTrip->setCard(array("Flight", "Stockholm", "New York JFK", "7B", "SK22", "22", "transfer"));
+  $obTrip->setCard(array("Airport Bus", "Barcelona", "Gerona Airport", "", "", "", ""));
+  $obTrip->setCard(array("Flight", "Gerona Airport", "Stockholm", "3A", "SK455", "45B", "344"));
+  $obTrip->setCard(array("Train", "Madrid", "Barcelona", "45B", "78A", "", ""));
 --------------------------------------------------------------------------------------------------------
 
 
@@ -39,7 +40,7 @@ Main Starting and ending Points
 ==========================================================
 You can change starting and ending points.
 
-$obTrip = new Trip('Madrid', 'New York JFK');
+  $obTrip = new Trip('Madrid', 'New York JFK');
 
 ------------------------------------------------------------------
 
