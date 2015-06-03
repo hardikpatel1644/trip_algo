@@ -1,18 +1,23 @@
 # trip_algo
 
-General information of php code of Trip sorting 
-================================================
-1.Fiile Structure 
-
-   trip 
-    -- README.txt
-    -- index.php
-    -- trip.php
+<h3>General information of php code of Trip sorting</h3>
+<p>
+Fiile Structure 
+   trip <br/>
+    -- README.txt <br/>
+    -- index.php <br/>
+    -- trip.php <br/>
     
-2. trip - Main root folder or application
-3. README.txt - General information about application and file structure
-4. index.php - action file
-5. trip.php - Main class for sorting algorithm of trip 
+    <br/>
+trip - Main root folder or application
+<br/>
+README.txt - General information about application and file structure
+<br/>
+index.php - action file
+<br/>
+trip.php - Main class for sorting algorithm of trip 
+<br/>
+</p>
 -------------------------------------------------------------------------
 Input parameters and sequence
 ======================================================
