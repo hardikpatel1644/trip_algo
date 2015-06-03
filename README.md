@@ -2,7 +2,7 @@
 
 <h3>General information of php code of Trip sorting</h3>
 <p>
-1.Fiile Structure 
+1.Fiile Structure <br/>
    trip <br/>
     -- README.txt <br/>
     -- index.php <br/>
@@ -19,42 +19,48 @@
 <br/>
 </p>
 -------------------------------------------------------------------------
-Input parameters and sequence
+<h3>Input parameters and sequence</h3>
 ======================================================
-- Set routes in array format 
-Elements sequence 
-  0 = Vehicle information ( Like Train , flight)
-  1 = Starting point ( Like Madrid )
-  2 = Ending point ( Like Barcelona )
-  3 = Seat No ( Like 45B )
-  4 = Vehicle No ( Like SK22)
-  5 = Gate No ( Like 22)
-  6 = Baggage details ( Like Transfer )
+<p>
+- Set routes in array format <br/>
+Elements sequence <br/>
+<ul>
+  <li>0 = Vehicle information ( Like Train , flight)</li>
+  <li>1 = Starting point ( Like Madrid )</li>
+  <li>2 = Ending point ( Like Barcelona )</li>
+  <li>3 = Seat No ( Like 45B )</li>
+  <li>4 = Vehicle No ( Like SK22)</li>
+  <li>5 = Gate No ( Like 22)</li>
+  <li>6 = Baggage details ( Like Transfer )</li>
 
 E.g
-
-  $obTrip->setCard(array("Flight", "Stockholm", "New York JFK", "7B", "SK22", "22", "transfer"));
-  $obTrip->setCard(array("Airport Bus", "Barcelona", "Gerona Airport", "", "", "", ""));
-  $obTrip->setCard(array("Flight", "Gerona Airport", "Stockholm", "3A", "SK455", "45B", "344"));
-  $obTrip->setCard(array("Train", "Madrid", "Barcelona", "45B", "78A", "", ""));
+<ul>
+  <li>$obTrip->setCard(array("Flight", "Stockholm", "New York JFK", "7B", "SK22", "22", "transfer"));</li>
+  <li>$obTrip->setCard(array("Airport Bus", "Barcelona", "Gerona Airport", "", "", "", ""));</li>
+  <li>$obTrip->setCard(array("Flight", "Gerona Airport", "Stockholm", "3A", "SK455", "45B", "344"));</li>
+  <li>$obTrip->setCard(array("Train", "Madrid", "Barcelona", "45B", "78A", "", ""));</li>
+</ul>  
+  </p>
 --------------------------------------------------------------------------------------------------------
 
 
-Main Starting and ending Points
+<h3>Main Starting and ending Points</h3>
 ==========================================================
-You can change starting and ending points.
-
+<p>
+You can change starting and ending points.<br/>
   $obTrip = new Trip('Madrid', 'New York JFK');
-
+</p>
 ------------------------------------------------------------------
 
-Output
+<h3>Output</h3>
 ===========================================================
-Based on starting and ending points result will be display as following list 
-
-    1. Take train 78A from Madrid to Barcelona. Sit in seat 45B.
-    2. Take the airport bus from Barcelona to Gerona Airport. No seat assignment.
-    3. From Gerona Airport, take flight SK455 to Stockholm. Gate 3A, seat 45B. Baggage drop at ticket counter 344.
-    4. From Stockholm, take flight SK22 to New York JFK. Gate 7B, seat 22. Baggage will we automatically transferred from your last leg.
-    5. You have arrived at your final destination.
-
+<p>
+Based on starting and ending points result will be display as following list <br/>
+<ol>
+    <li>Take train 78A from Madrid to Barcelona. Sit in seat 45B.</li>
+   <li> Take the airport bus from Barcelona to Gerona Airport. No seat assignment.</li>
+   <li> From Gerona Airport, take flight SK455 to Stockholm. Gate 3A, seat 45B. Baggage drop at ticket counter 344.</li>
+   <li> From Stockholm, take flight SK22 to New York JFK. Gate 7B, seat 22. Baggage will we automatically transferred from your last leg.</li>
+   <li> You have arrived at your final destination.</li>
+   </ol>
+</p>
