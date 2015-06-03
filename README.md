@@ -2,20 +2,20 @@
 
 <h3>General information of php code of Trip sorting</h3>
 <p>
-Fiile Structure 
+1.Fiile Structure 
    trip <br/>
     -- README.txt <br/>
     -- index.php <br/>
     -- trip.php <br/>
     
     <br/>
-trip - Main root folder or application
+2.trip - Main root folder or application
 <br/>
-README.txt - General information about application and file structure
+3.README.txt - General information about application and file structure
 <br/>
-index.php - action file
+4.index.php - action file
 <br/>
-trip.php - Main class for sorting algorithm of trip 
+5.trip.php - Main class for sorting algorithm of trip 
 <br/>
 </p>
 -------------------------------------------------------------------------
