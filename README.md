@@ -2,17 +2,17 @@
 
 General information of php code of Trip sorting 
 ================================================
-1) Fiile Structure 
+1.Fiile Structure 
 
    trip 
     -- README.txt
     -- index.php
     -- trip.php
-
-2) trip - Main root folder or application
-3) README.txt - General information about application and file structure
-4) index.php - action file
-5) trip.php - Main class for sorting algorithm of trip 
+    
+2. trip - Main root folder or application
+3. README.txt - General information about application and file structure
+4. index.php - action file
+5. trip.php - Main class for sorting algorithm of trip 
 -------------------------------------------------------------------------
 Input parameters and sequence
 ======================================================
